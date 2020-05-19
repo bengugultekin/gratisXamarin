@@ -3,7 +3,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using gratisXamarin.Services;
 using gratisXamarin.Views;
-
+using DLToolkit.Forms.Controls;
 
 namespace gratisXamarin
 {
@@ -13,7 +13,7 @@ namespace gratisXamarin
         public App()
         {
             InitializeComponent();
-
+            FlowListView.Init();
             DependencyService.Register<MockDataStore>();
             MainPage = new MainPage();
         }

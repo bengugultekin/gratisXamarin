@@ -481,3 +481,14 @@ C:\Users\Bengu\source\repos\gratisXamarin\gratisXamarin.Android\obj\Debug\90\res
 C:\Users\Bengu\source\repos\gratisXamarin\gratisXamarin.Android\obj\Debug\90\res\drawable\unnamed.jpg
 C:\Users\Bengu\source\repos\gratisXamarin\gratisXamarin.Android\obj\Debug\90\res\drawable\lorealmaska.png
 C:\Users\Bengu\source\repos\gratisXamarin\gratisXamarin.Android\obj\Debug\90\res\drawable\pldus.png
+C:\Users\Bengu\source\repos\gratisXamarin\gratisXamarin.Android\obj\Debug\90\android\assets\DLToolkit.Forms.Controls.FlowListView.dll
+C:\Users\Bengu\source\repos\gratisXamarin\gratisXamarin.Android\obj\Debug\90\android\assets\System.Collections.dll
+C:\Users\Bengu\source\repos\gratisXamarin\gratisXamarin.Android\obj\Debug\90\android\assets\System.Diagnostics.Debug.dll
+C:\Users\Bengu\source\repos\gratisXamarin\gratisXamarin.Android\obj\Debug\90\android\assets\System.Linq.dll
+C:\Users\Bengu\source\repos\gratisXamarin\gratisXamarin.Android\obj\Debug\90\android\assets\System.ObjectModel.dll
+C:\Users\Bengu\source\repos\gratisXamarin\gratisXamarin.Android\obj\Debug\90\android\assets\System.Reflection.dll
+C:\Users\Bengu\source\repos\gratisXamarin\gratisXamarin.Android\obj\Debug\90\android\assets\System.Reflection.Extensions.dll
+C:\Users\Bengu\source\repos\gratisXamarin\gratisXamarin.Android\obj\Debug\90\android\assets\System.Resources.ResourceManager.dll
+C:\Users\Bengu\source\repos\gratisXamarin\gratisXamarin.Android\obj\Debug\90\android\assets\System.Runtime.Extensions.dll
+C:\Users\Bengu\source\repos\gratisXamarin\gratisXamarin.Android\obj\Debug\90\android\assets\System.Threading.dll
+C:\Users\Bengu\source\repos\gratisXamarin\gratisXamarin.Android\obj\Debug\90\android\assets\System.Threading.Tasks.dll

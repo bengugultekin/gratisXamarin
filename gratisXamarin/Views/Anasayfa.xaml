@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:flv="clr-namespace:DLToolkit.Forms.Controls;assembly=DLToolkit.Forms.Controls.FlowListView"  
              mc:Ignorable="d"
              x:Class="gratisXamarin.Views.Anasayfa">
     <ContentPage.Content>
@@ -31,8 +32,29 @@
                 </CarouselView>
             </StackLayout>
 
-            <Label Text="En Çok Satanlar" Margin="5"/>
-            
+            <StackLayout>
+                <Label Text="En Çok Satanlar" Margin="5"/>
+                <flv:FlowListView FlowColumnCount="2"   
+                SeparatorVisibility="Default"   
+                HasUnevenRows="True"  
+                FlowItemTappedCommand="{Binding ItemTappedCommand}"   
+                FlowItemsSource="{Binding Items}">
+
+                    <flv:FlowListView.FlowColumnTemplate>
+                        <DataTemplate>
+                            <Frame BackgroundColor="White" Margin="5">
+                                <StackLayout>
+                                    <Image Source="{Binding ImageSource}"/>
+                                    <Label HorizontalOptions="Fill" VerticalOptions="Fill" XAlign="Center" YAlign="Center" Text="{Binding UrunAdi}"/>
+                                    <Label HorizontalOptions="Fill" VerticalOptions="Fill" XAlign="Center" YAlign="Center" Text="{Binding UrunAciklamasi}"/>
+                                    <Label HorizontalOptions="Fill" VerticalOptions="Fill" XAlign="Center" YAlign="Center" Text="{Binding UrunFiyati}"/>
+                                </StackLayout>
+                                
+                            </Frame>
+                        </DataTemplate>
+                    </flv:FlowListView.FlowColumnTemplate>
+                </flv:FlowListView>
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
