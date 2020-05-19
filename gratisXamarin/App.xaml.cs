@@ -4,6 +4,7 @@ using Xamarin.Forms.Xaml;
 using gratisXamarin.Services;
 using gratisXamarin.Views;
 
+
 namespace gratisXamarin
 {
     public partial class App : Application

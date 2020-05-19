@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "65O4xM8oDeJAY33Vk8rSqOg0vnwaMyeS7OLC3anXN3H457kjdgVvLX8H0NRRXkI1gynYKUx2IuoUuIhxdIqNXA==",
+  "dgSpecHash": "B+DvcLyUIzxslTl0W0Q5MJwJkAVe3WHVW7O8C4agnH210CMtqYa0c3C0CgyCVetlF5CM4m+uNfqEkl0gl5qSVQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Bengu\\source\\repos\\gratisXamarin\\gratisXamarin.Android\\gratisXamarin.Android.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Bengu\\.nuget\\packages\\dltoolkit.forms.controls.flowlistview\\2.0.11\\dltoolkit.forms.controls.flowlistview.2.0.11.nupkg.sha512",
     "C:\\Users\\Bengu\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.common\\1.1.1.3\\xamarin.android.arch.core.common.1.1.1.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.runtime\\1.1.1.3\\xamarin.android.arch.core.runtime.1.1.1.3.nupkg.sha512",

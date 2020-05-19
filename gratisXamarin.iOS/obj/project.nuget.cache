@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "VcPJEp3dC5a+dpYVkJUzBwb0evPcX+W2yx7N0mK2WJKx4xEukXRv4GrXzxjn6fFDu2yfZd/iaWVCF7MLW6Spjg==",
+  "dgSpecHash": "sa9tCGrKaFttp0tevM95yEWeA2c/xZq3RbvRJgRAAwqeKcqtoSzkIxxHuUG29Sp+Kjhdv9l3voEKhElsA64T7g==",
   "success": true,
   "projectFilePath": "C:\\Users\\Bengu\\source\\repos\\gratisXamarin\\gratisXamarin.iOS\\gratisXamarin.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Bengu\\.nuget\\packages\\dltoolkit.forms.controls.flowlistview\\2.0.11\\dltoolkit.forms.controls.flowlistview.2.0.11.nupkg.sha512",
     "C:\\Users\\Bengu\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.4.0.991265\\xamarin.forms.4.4.0.991265.nupkg.sha512"

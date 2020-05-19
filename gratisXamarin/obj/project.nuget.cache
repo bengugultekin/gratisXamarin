@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "nUQMUg9ywnOQfZKsKpvlF2T5bPcWXTArcR8XJlQrs8JXHFN12gbxii7Z2Iz8ea2Ctj9KDsrEa5B2sUp5pmLA1Q==",
+  "dgSpecHash": "Hr6jgrk8FzsNPxU2RpL5yRFy4PVlfXYKH17vuuL0N8bphF4EjtI2M7Jb0y6rRF3Mrq0FO+EAJreZZKV9sLliyA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Bengu\\source\\repos\\gratisXamarin\\gratisXamarin\\gratisXamarin.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Bengu\\.nuget\\packages\\dltoolkit.forms.controls.flowlistview\\2.0.11\\dltoolkit.forms.controls.flowlistview.2.0.11.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\Bengu\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
