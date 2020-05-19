@@ -7,54 +7,81 @@
              mc:Ignorable="d"
              x:Class="gratisXamarin.Views.Anasayfa">
     <ContentPage.Content>
-        <StackLayout>
-            <!-- <StackLayout Orientation="Horizontal" BackgroundColor="Yellow">
+        <ScrollView>
+            <StackLayout>
+                <!-- <StackLayout Orientation="Horizontal" BackgroundColor="Yellow">
                 <Image Source="C:\Users\Bengu\source\repos\gratisXMRN\gratisXMRN.Android\Resources\drawable\kargo.png" WidthRequest="30" Margin="10,3,0,0"/>
                 <Label WidthRequest="10"/>
                 <Label Text="85 TL üzeri alışverişlerinizde kargo BEDAVA!" TextColor="HotPink" FontAttributes="Bold" HorizontalOptions="Center" FontSize="Medium" VerticalOptions="Center"/>
             </StackLayout> -->
-            <StackLayout BackgroundColor="#490E6F">
-                <Frame CornerRadius="10" IsClippedToBounds="True" Padding="0" Margin="5">
-                    <SearchBar Placeholder="Aradığınız Ürün..." BackgroundColor="White"/>
-                </Frame>
-            </StackLayout>
-            <StackLayout BackgroundColor="#490E6F" HeightRequest="250" Padding="5">
-                <CarouselView x:Name="indirimkampanyalaricarousel" BackgroundColor="#490E6F">
-                    <CarouselView.ItemTemplate>
-                        <DataTemplate>
-                            <StackLayout>
-                                <Frame CornerRadius="10" IsClippedToBounds="True" Padding="0" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
-                                    <ImageButton Source="{Binding .}" BackgroundColor="#490E6F" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"/>
-                                </Frame>
-                            </StackLayout>
-                        </DataTemplate>
-                    </CarouselView.ItemTemplate>
-                </CarouselView>
-            </StackLayout>
+                <StackLayout BackgroundColor="#490E6F">
+                    <Frame CornerRadius="10" IsClippedToBounds="True" Padding="0" Margin="5">
+                        <SearchBar Placeholder="Aradığınız Ürün..." BackgroundColor="White"/>
+                    </Frame>
+                </StackLayout>
+                <StackLayout BackgroundColor="#490E6F" HeightRequest="250" Padding="5">
+                    <CarouselView x:Name="indirimkampanyalaricarousel" BackgroundColor="#490E6F">
+                        <CarouselView.ItemTemplate>
+                            <DataTemplate>
+                                <StackLayout>
+                                    <Frame CornerRadius="10" IsClippedToBounds="True" Padding="0" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                                        <ImageButton Source="{Binding .}" BackgroundColor="#490E6F" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"/>
+                                    </Frame>
+                                </StackLayout>
+                            </DataTemplate>
+                        </CarouselView.ItemTemplate>
+                    </CarouselView>
+                </StackLayout>
 
-            <StackLayout>
-                <Label Text="En Çok Satanlar" Margin="5"/>
-                <flv:FlowListView FlowColumnCount="2"   
+                <StackLayout>
+                    <Label Text="En Çok Satanlar" Margin="5"/>
+                    <flv:FlowListView FlowColumnCount="2"   
                 SeparatorVisibility="Default"   
                 HasUnevenRows="True"  
                 FlowItemTappedCommand="{Binding ItemTappedCommand}"   
                 FlowItemsSource="{Binding Items}">
 
-                    <flv:FlowListView.FlowColumnTemplate>
-                        <DataTemplate>
-                            <Frame BackgroundColor="White" Margin="5">
-                                <StackLayout>
-                                    <Image Source="{Binding ImageSource}"/>
-                                    <Label HorizontalOptions="Fill" VerticalOptions="Fill" XAlign="Center" YAlign="Center" Text="{Binding UrunAdi}"/>
-                                    <Label HorizontalOptions="Fill" VerticalOptions="Fill" XAlign="Center" YAlign="Center" Text="{Binding UrunAciklamasi}"/>
-                                    <Label HorizontalOptions="Fill" VerticalOptions="Fill" XAlign="Center" YAlign="Center" Text="{Binding UrunFiyati}"/>
-                                </StackLayout>
-                                
-                            </Frame>
-                        </DataTemplate>
-                    </flv:FlowListView.FlowColumnTemplate>
-                </flv:FlowListView>
+                        <flv:FlowListView.FlowColumnTemplate>
+                            <DataTemplate>
+                                <Frame BackgroundColor="White" Margin="5">
+                                    <StackLayout>
+                                        <Image Source="{Binding ImageSource}"/>
+                                        <Label HorizontalOptions="Fill" VerticalOptions="Fill" XAlign="Center" YAlign="Center" Text="{Binding UrunAdi}"/>
+                                        <Label HorizontalOptions="Fill" VerticalOptions="Fill" XAlign="Center" YAlign="Center" Text="{Binding UrunAciklamasi}"/>
+                                        <Label HorizontalOptions="Fill" VerticalOptions="Fill" XAlign="Center" YAlign="Center" Text="{Binding UrunFiyati}"/>
+                                    </StackLayout>
+
+                                </Frame>
+                            </DataTemplate>
+                        </flv:FlowListView.FlowColumnTemplate>
+                    </flv:FlowListView>
+                </StackLayout>
+
+                <Button Text="Tümünü Göster"/>
+
+                <ScrollView Orientation="Horizontal">
+                    <StackLayout Orientation="Horizontal" BindableLayout.ItemsSource="{Binding Items}">
+
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding ItemTappedCommand}" NumberOfTapsRequired="1"/>
+                        </StackLayout.GestureRecognizers>
+
+                        <BindableLayout.ItemTemplate>
+                            <DataTemplate>
+                                <Frame BackgroundColor="White" Margin="5">
+                                    <StackLayout>
+                                        <Image Source="{Binding ImageSource}"/>
+                                        <Label HorizontalOptions="Fill" VerticalOptions="Fill" XAlign="Center" YAlign="Center" Text="{Binding UrunAdi}"/>
+                                        <Label HorizontalOptions="Fill" VerticalOptions="Fill" XAlign="Center" YAlign="Center" Text="{Binding UrunAciklamasi}"/>
+                                        <Label HorizontalOptions="Fill" VerticalOptions="Fill" XAlign="Center" YAlign="Center" Text="{Binding UrunFiyati}"/>
+                                    </StackLayout>
+
+                                </Frame>
+                            </DataTemplate>
+                        </BindableLayout.ItemTemplate>
+                    </StackLayout>
+                </ScrollView>
             </StackLayout>
-        </StackLayout>
+        </ScrollView>        
     </ContentPage.Content>
 </ContentPage>

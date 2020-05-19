@@ -492,3 +492,4 @@ C:\Users\Bengu\source\repos\gratisXamarin\gratisXamarin.Android\obj\Debug\90\and
 C:\Users\Bengu\source\repos\gratisXamarin\gratisXamarin.Android\obj\Debug\90\android\assets\System.Runtime.Extensions.dll
 C:\Users\Bengu\source\repos\gratisXamarin\gratisXamarin.Android\obj\Debug\90\android\assets\System.Threading.dll
 C:\Users\Bengu\source\repos\gratisXamarin\gratisXamarin.Android\obj\Debug\90\android\assets\System.Threading.Tasks.dll
+C:\Users\Bengu\source\repos\gratisXamarin\gratisXamarin.Android\obj\Debug\90\res\drawable\gratis.png
