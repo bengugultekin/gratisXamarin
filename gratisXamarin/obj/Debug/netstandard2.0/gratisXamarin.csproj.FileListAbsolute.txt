@@ -18,3 +18,12 @@ C:\Users\Bengu\source\repos\gratisXamarin\gratisXamarin\obj\Debug\netstandard2.0
 C:\Users\Bengu\source\repos\gratisXamarin\gratisXamarin\obj\Debug\netstandard2.0\gratisXamarin.dll
 C:\Users\Bengu\source\repos\gratisXamarin\gratisXamarin\obj\Debug\netstandard2.0\ref\gratisXamarin.dll
 C:\Users\Bengu\source\repos\gratisXamarin\gratisXamarin\obj\Debug\netstandard2.0\gratisXamarin.pdb
+C:\Users\Bengu\source\repos\gratisXamarin\gratisXamarin\obj\Debug\netstandard2.0\Views\AnneBebek.xaml.g.cs
+C:\Users\Bengu\source\repos\gratisXamarin\gratisXamarin\obj\Debug\netstandard2.0\Views\ErkekBakim.xaml.g.cs
+C:\Users\Bengu\source\repos\gratisXamarin\gratisXamarin\obj\Debug\netstandard2.0\Views\EvYasam.xaml.g.cs
+C:\Users\Bengu\source\repos\gratisXamarin\gratisXamarin\obj\Debug\netstandard2.0\Views\OUTLET.xaml.g.cs
+C:\Users\Bengu\source\repos\gratisXamarin\gratisXamarin\obj\Debug\netstandard2.0\Views\ParfumDeodorant.xaml.g.cs
+C:\Users\Bengu\source\repos\gratisXamarin\gratisXamarin\obj\Debug\netstandard2.0\Views\SacBakim.xaml.g.cs
+C:\Users\Bengu\source\repos\gratisXamarin\gratisXamarin\obj\Debug\netstandard2.0\Views\SaglikHijyen.xaml.g.cs
+C:\Users\Bengu\source\repos\gratisXamarin\gratisXamarin\obj\Debug\netstandard2.0\Views\Trendler.xaml.g.cs
+C:\Users\Bengu\source\repos\gratisXamarin\gratisXamarin\obj\Debug\netstandard2.0\Views\CiltBakım.xaml.g.cs

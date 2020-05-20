@@ -20,8 +20,17 @@ namespace gratisXamarin.Views
 
             menuItems = new List<HomeMenuItem>
             {
-                new HomeMenuItem {Id = MenuItemType.Browse, Title="Browse" },
-                new HomeMenuItem {Id = MenuItemType.About, Title="About" }
+                new HomeMenuItem {Id = MenuItemType.Anasayfa, Title="Anasayfa" },
+                new HomeMenuItem {Id = MenuItemType.Makyaj, Title="Makyaj" },
+                new HomeMenuItem {Id = MenuItemType.CiltBakim, Title="Cilt Bakım" },
+                new HomeMenuItem {Id = MenuItemType.SacBakim, Title="Saç Bakım" },
+                new HomeMenuItem {Id = MenuItemType.SaglikHijyen, Title="Sağlık-Hijyen" },
+                new HomeMenuItem {Id = MenuItemType.ParfumDeodorant, Title="Parfüm-Deodorant" },
+                new HomeMenuItem {Id = MenuItemType.ErkekBakım, Title="Erkek Bakım" },
+                new HomeMenuItem {Id = MenuItemType.EvYasam, Title="Ev-Yaşam" },
+                new HomeMenuItem {Id = MenuItemType.AnneBebek, Title="Anne-Bebek" },
+                new HomeMenuItem {Id = MenuItemType.OUTLET, Title="OUTLET" },
+                new HomeMenuItem {Id = MenuItemType.Trendler, Title="Trendler" }
             };
 
             ListViewMenu.ItemsSource = menuItems;

@@ -21,7 +21,7 @@ namespace gratisXamarin.Views
 
             MasterBehavior = MasterBehavior.Popover;
 
-            MenuPages.Add((int)MenuItemType.Browse, (NavigationPage)Detail);
+            MenuPages.Add((int)MenuItemType.Anasayfa, (NavigationPage)Detail);
         }
 
         public async Task NavigateFromMenu(int id)
@@ -30,11 +30,38 @@ namespace gratisXamarin.Views
             {
                 switch (id)
                 {
-                    case (int)MenuItemType.Browse:
+                    case (int)MenuItemType.Anasayfa:
+                        MenuPages.Add(id, new NavigationPage(new Anasayfa()));
+                        break;
+                    case (int)MenuItemType.Makyaj:
                         MenuPages.Add(id, new NavigationPage(new ItemsPage()));
                         break;
-                    case (int)MenuItemType.About:
-                        MenuPages.Add(id, new NavigationPage(new AboutPage()));
+                    case (int)MenuItemType.CiltBakim:
+                        MenuPages.Add(id, new NavigationPage(new CiltBakım()));
+                        break;
+                    case (int)MenuItemType.SacBakim:
+                        MenuPages.Add(id, new NavigationPage(new SacBakim()));
+                        break;
+                    case (int)MenuItemType.SaglikHijyen:
+                        MenuPages.Add(id, new NavigationPage(new SaglikHijyen()));
+                        break;
+                    case (int)MenuItemType.ParfumDeodorant:
+                        MenuPages.Add(id, new NavigationPage(new ParfumDeodorant()));
+                        break;
+                    case (int)MenuItemType.ErkekBakım:
+                        MenuPages.Add(id, new NavigationPage(new ErkekBakim()));
+                        break;
+                    case (int)MenuItemType.EvYasam:
+                        MenuPages.Add(id, new NavigationPage(new EvYasam()));
+                        break;
+                    case (int)MenuItemType.AnneBebek:
+                        MenuPages.Add(id, new NavigationPage(new AnneBebek()));
+                        break;
+                    case (int)MenuItemType.OUTLET:
+                        MenuPages.Add(id, new NavigationPage(new OUTLET()));
+                        break;
+                    case (int)MenuItemType.Trendler:
+                        MenuPages.Add(id, new NavigationPage(new Trendler()));
                         break;
                 }
             }

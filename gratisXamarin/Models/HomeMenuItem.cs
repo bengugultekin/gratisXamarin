@@ -6,8 +6,18 @@ namespace gratisXamarin.Models
 {
     public enum MenuItemType
     {
-        Browse,
-        About
+        Anasayfa,
+        Makyaj,
+        CiltBakim,
+        SacBakim,
+        SaglikHijyen,
+        ParfumDeodorant,
+        ErkekBakım,
+        EvYasam,
+        AnneBebek,
+        OUTLET,
+        Trendler
+
     }
     public class HomeMenuItem
     {
