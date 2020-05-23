@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Hr6jgrk8FzsNPxU2RpL5yRFy4PVlfXYKH17vuuL0N8bphF4EjtI2M7Jb0y6rRF3Mrq0FO+EAJreZZKV9sLliyA==",
+  "dgSpecHash": "uHTmvKvMlSNA31Xv52vwTCDDruP8MtbRBYBFwGC75JVI2wbS/IA2ywe+e4gZC4PZYUXafwEnFFbQY1FhUYJyVQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Bengu\\source\\repos\\gratisXamarin\\gratisXamarin\\gratisXamarin.csproj",
+  "projectFilePath": "C:\\Users\\Bengu\\Source\\Repos\\gratisXamarin2\\gratisXamarin\\gratisXamarin.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bengu\\.nuget\\packages\\dltoolkit.forms.controls.flowlistview\\2.0.11\\dltoolkit.forms.controls.flowlistview.2.0.11.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",

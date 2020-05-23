@@ -57,7 +57,7 @@
                     </flv:FlowListView>
                 </StackLayout>
 
-                <Button Text="Tümünü Göster"/>
+                
 
                 <ScrollView Orientation="Horizontal">
                     <StackLayout Orientation="Horizontal" BindableLayout.ItemsSource="{Binding Items}">

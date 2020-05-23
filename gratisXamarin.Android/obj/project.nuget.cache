@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "B+DvcLyUIzxslTl0W0Q5MJwJkAVe3WHVW7O8C4agnH210CMtqYa0c3C0CgyCVetlF5CM4m+uNfqEkl0gl5qSVQ==",
+  "dgSpecHash": "8/ahx4UHG1UW0nfnAX97/2kp1rpFNvHjxYWnmyBVfOp/6WNniTnzOOzDC099v1/iQmFmqi4pbInkVuBHKyEmkw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Bengu\\source\\repos\\gratisXamarin\\gratisXamarin.Android\\gratisXamarin.Android.csproj",
+  "projectFilePath": "C:\\Users\\Bengu\\Source\\Repos\\gratisXamarin2\\gratisXamarin.Android\\gratisXamarin.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bengu\\.nuget\\packages\\dltoolkit.forms.controls.flowlistview\\2.0.11\\dltoolkit.forms.controls.flowlistview.2.0.11.nupkg.sha512",
     "C:\\Users\\Bengu\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
