@@ -1,13 +1,50 @@
 {
   "version": 2,
-  "dgSpecHash": "5p+hB7fEyuwXK+M76u+ZUnNGhii219ZbmF470XdH0yZBehYv1Rbn8vy5bKSrbdpUJpnRI1xmEibpF8wCZcol3A==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\Bengu\\Source\\Repos\\gratisXamarin2\\gratisXamarin.iOS\\gratisXamarin.iOS.csproj",
+  "dgSpecHash": "P8OZHCZA8wQrAPnjkzK5K0rN4SZqHg5upcN1cTRoXY4pgKJQo/qb0Td324zaTARgWc/k/AQM3W5Du/DToyjT7w==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Bengu\\source\\repos\\gratisXamarin\\gratisXamarin.iOS\\gratisXamarin.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bengu\\.nuget\\packages\\dltoolkit.forms.controls.flowlistview\\2.0.11\\dltoolkit.forms.controls.flowlistview.2.0.11.nupkg.sha512",
     "C:\\Users\\Bengu\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.4.0.991265\\xamarin.forms.4.4.0.991265.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project gratisAPI is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0). Project gratisAPI supports: netcoreapp3.1 (.NETCoreApp,Version=v3.1)",
+      "libraryId": "gratisAPI",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project gratisAPI is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0) / win. Project gratisAPI supports: netcoreapp3.1 (.NETCoreApp,Version=v3.1)",
+      "libraryId": "gratisAPI",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0/win"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project gratisAPI is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0) / win-x64. Project gratisAPI supports: netcoreapp3.1 (.NETCoreApp,Version=v3.1)",
+      "libraryId": "gratisAPI",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0/win-x64"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project gratisAPI is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0) / win-x86. Project gratisAPI supports: netcoreapp3.1 (.NETCoreApp,Version=v3.1)",
+      "libraryId": "gratisAPI",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    }
+  ]
 }

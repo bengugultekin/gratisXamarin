@@ -17,6 +17,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\gratisAPI\gratisAPI.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Update="Views\ItemsPage.xaml.cs">
       <DependentUpon>ItemsPage.xaml</DependentUpon>
     </Compile>

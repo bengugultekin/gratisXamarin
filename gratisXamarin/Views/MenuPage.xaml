@@ -8,6 +8,8 @@
              Title="Menu">
              
     <StackLayout VerticalOptions="FillAndExpand">
+
+        <Label Text="BENGÜ"/>
         <ListView x:Name="ListViewMenu"
                     HasUnevenRows="True">
             <d:ListView.ItemsSource>

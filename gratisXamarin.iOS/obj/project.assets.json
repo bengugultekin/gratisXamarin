@@ -161,13 +161,24 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "gratisAPI/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/gratisAPI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/gratisAPI.dll": {}
+        }
+      },
       "gratisXamarin/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "DLToolkit.Forms.Controls.FlowListView": "2.0.11",
           "Xamarin.Essentials": "1.3.1",
-          "Xamarin.Forms": "4.4.0.991265"
+          "Xamarin.Forms": "4.4.0.991265",
+          "gratisAPI": "1.0.0"
         },
         "compile": {
           "bin/placeholder/gratisXamarin.dll": {}
@@ -337,13 +348,24 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "gratisAPI/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/gratisAPI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/gratisAPI.dll": {}
+        }
+      },
       "gratisXamarin/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "DLToolkit.Forms.Controls.FlowListView": "2.0.11",
           "Xamarin.Essentials": "1.3.1",
-          "Xamarin.Forms": "4.4.0.991265"
+          "Xamarin.Forms": "4.4.0.991265",
+          "gratisAPI": "1.0.0"
         },
         "compile": {
           "bin/placeholder/gratisXamarin.dll": {}
@@ -513,13 +535,24 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "gratisAPI/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/gratisAPI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/gratisAPI.dll": {}
+        }
+      },
       "gratisXamarin/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "DLToolkit.Forms.Controls.FlowListView": "2.0.11",
           "Xamarin.Essentials": "1.3.1",
-          "Xamarin.Forms": "4.4.0.991265"
+          "Xamarin.Forms": "4.4.0.991265",
+          "gratisAPI": "1.0.0"
         },
         "compile": {
           "bin/placeholder/gratisXamarin.dll": {}
@@ -689,13 +722,24 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "gratisAPI/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/gratisAPI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/gratisAPI.dll": {}
+        }
+      },
       "gratisXamarin/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "DLToolkit.Forms.Controls.FlowListView": "2.0.11",
           "Xamarin.Essentials": "1.3.1",
-          "Xamarin.Forms": "4.4.0.991265"
+          "Xamarin.Forms": "4.4.0.991265",
+          "gratisAPI": "1.0.0"
         },
         "compile": {
           "bin/placeholder/gratisXamarin.dll": {}
@@ -1069,6 +1113,11 @@
         "xamarin.forms.nuspec"
       ]
     },
+    "gratisAPI/1.0.0": {
+      "type": "project",
+      "path": "../../gratisAPI/gratisAPI.csproj",
+      "msbuildProject": "../../gratisAPI/gratisAPI.csproj"
+    },
     "gratisXamarin/1.0.0": {
       "type": "project",
       "path": "../gratisXamarin/gratisXamarin.csproj",
@@ -1090,11 +1139,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Bengu\\Source\\Repos\\gratisXamarin2\\gratisXamarin.iOS\\gratisXamarin.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\Bengu\\source\\repos\\gratisXamarin\\gratisXamarin.iOS\\gratisXamarin.iOS.csproj",
       "projectName": "gratisXamarin.iOS",
-      "projectPath": "C:\\Users\\Bengu\\Source\\Repos\\gratisXamarin2\\gratisXamarin.iOS\\gratisXamarin.iOS.csproj",
+      "projectPath": "C:\\Users\\Bengu\\source\\repos\\gratisXamarin\\gratisXamarin.iOS\\gratisXamarin.iOS.csproj",
       "packagesPath": "C:\\Users\\Bengu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Bengu\\Source\\Repos\\gratisXamarin2\\gratisXamarin.iOS\\obj\\",
+      "outputPath": "C:\\Users\\Bengu\\source\\repos\\gratisXamarin\\gratisXamarin.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1115,8 +1164,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Bengu\\Source\\Repos\\gratisXamarin2\\gratisXamarin\\gratisXamarin.csproj": {
-              "projectPath": "C:\\Users\\Bengu\\Source\\Repos\\gratisXamarin2\\gratisXamarin\\gratisXamarin.csproj"
+            "C:\\Users\\Bengu\\source\\repos\\gratisXamarin\\gratisXamarin\\gratisXamarin.csproj": {
+              "projectPath": "C:\\Users\\Bengu\\source\\repos\\gratisXamarin\\gratisXamarin\\gratisXamarin.csproj"
             }
           }
         }
@@ -1151,5 +1200,43 @@
         "#import": []
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project gratisAPI is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0). Project gratisAPI supports: netcoreapp3.1 (.NETCoreApp,Version=v3.1)",
+      "libraryId": "gratisAPI",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project gratisAPI is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0) / win. Project gratisAPI supports: netcoreapp3.1 (.NETCoreApp,Version=v3.1)",
+      "libraryId": "gratisAPI",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0/win"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project gratisAPI is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0) / win-x64. Project gratisAPI supports: netcoreapp3.1 (.NETCoreApp,Version=v3.1)",
+      "libraryId": "gratisAPI",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0/win-x64"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project gratisAPI is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0) / win-x86. Project gratisAPI supports: netcoreapp3.1 (.NETCoreApp,Version=v3.1)",
+      "libraryId": "gratisAPI",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    }
+  ]
 }

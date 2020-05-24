@@ -18,6 +18,9 @@ namespace gratisXamarin.ViewModels
             AddItems();
         }
 
+        
+
+
         private void AddItems()
         {
 
